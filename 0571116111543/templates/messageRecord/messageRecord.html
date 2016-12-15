@@ -1,0 +1,13 @@
+<ion-view>
+    <ion-nav-title>消息记录</ion-nav-title>
+    <ion-content>
+        <ion-list type="card" class="record"  ng-repeat="me in mess" >
+            <ion-item class="item-avatar">
+                <img src="{{me.img}}">
+                <h2 class="titleChange">{{me.title}}</h2>
+                <p class="contentChange">{{me.content}}</p>
+                <span class="badge badge-assertive">{{me.num}}</span>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

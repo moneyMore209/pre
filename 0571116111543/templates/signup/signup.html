@@ -1,0 +1,46 @@
+<ion-view>
+    <ion-nav-title>客户活动</ion-nav-title>
+    <ion-content class="content-big">
+        <div class="signbg">
+        </div>
+        <div class="text">
+            <p>我要报名</p>
+            <form class="list list-borderless " name="registerForm" novalidate>
+                <label class="item item-input-inset login login1">
+                    <div class="item-input-wrapper">
+                        <i class="icon ion-person placeholder-icon"></i>
+                        <input class="postcard" name="user" ng-model="user.name" type="text" placeholder="姓名" required/>
+                    </div>
+                </label>
+                <label class="item item-input-inset login">
+                    <div class="item-input-wrapper">
+                        <i class="icon ion-card placeholder-icon"></i>
+                        <input type="text" name="card" ng-model="user.card" placeholder="身份证号码" required/>
+                    </div>
+                </label>
+
+                <label class="item item-input item-select login login2">
+                    <span class="input-label"> <i class="icon ion-ios-location placeholder-icon"></i>区域</span>
+                    <div class="item-input-wrapper">
+
+                    <select ng-model="user.area">
+                        <option value=""></option>
+                        <option value="华东地区">华东地区</option>
+                        <option value="华南地区">华南地区</option>
+                        <option value="华中地区">华中地区</option>
+                        <option value="华北地区">华北地区</option>
+                        <option value="西北地区">西北地区</option>
+                        <option value="西南地区">西南地区</option>
+                        <option value="东北地区">东北地区</option>
+                        <option value="台港澳地区">台港澳地区</option>
+                    </select>
+                        </div>
+                </label>
+            </form>
+            <span class="first">请报名人员仔细填写您的姓名和身份证号码</span>
+            <span class="second">便于我们为大家购买保险</span>
+
+        </div>
+        <button type="submit" class="button submit-info" ng-disabled="registerForm.$invalid" ng-click="submit()">提交信息</button>
+    </ion-content>
+</ion-view>

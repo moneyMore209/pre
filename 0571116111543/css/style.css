@@ -1,0 +1,191 @@
+*{margin:0; padding:0;}
+body,h1,h2,h3,h4,h5,h6,p,ul,li,input,dl,dt,dd{ margin:0; padding:0;}
+body{font-family: "Microsoft Yahei";}
+/*-----------------------------------login-------------------------------------------*/
+.head{background: #393a3f;}
+.bankbg{height: 213px; background-image: url("../images/bankbg.png"); background-size: cover;text-align: center; margin: 0;}
+.bankbg img{height:48px; margin-top: 96px;}
+.labelone{height:51px; background-color: #efebec;}
+.labelone input{font-size: 18px;}
+.item-input-inset{width:74.667%; margin: 0 auto;background-color:#393a3f;}
+.content-box{ padding-top: 15px;}
+.bigbox{background-color:#393a3f;}
+.logo-one img{width:35px;}
+.logo-two img{width:26px;}
+.logo-three img{width:38px;}
+.logo-four img{width:31px;}
+.logo-one{padding: 0 2px 0 1px ;}
+.logo-two{padding: 0 9px 0 4px ;}
+.logo-three{padding: 0 1px 0 0 ;}
+.logo-four{padding: 0 6px 0 3px ;}
+.ion-person{font-size: 24px;}
+.no-user{padding: 8px 0 0 14.65%;font-size: 12px; color: #d3d1d4;}
+.no-user span{cursor: pointer; color:#d82f40; text-decoration: underline;}
+.login-button{height: 43px; width: 63.2%; display: block; margin: 15px auto 44px; background-color: #bf1e2e; font-size: 18px; color: #fff; font-family: "Microsoft Yahei"}
+/*-----------------------------------submit_success-------------------------------------------*/
+div.credit-card{font-size: 18px; font-family: "宋体"; background-color: #393a3f; color: #fff;}
+.item-icon-left .icon{ font-size: 24px; color: #fff; font-weight: normal;}
+.right-round img{ width: 39px;}
+#choose{ width:100%; height: 35px; background-color: #bf1e2e; margin: 0 auto; margin-top: 42px;}
+#choose img{width: 32px; position: relative;top: -9px;}
+.choose{ background-color: #bf1e2e;}
+/*.card .ion-close{font-size: 28px; top:0px;}*/
+.wrap{width:77.8%;margin: 0 auto;box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.4) }
+.goto{height: 170px;width:100%;margin: 0 auto;}
+.goto p{padding: 34px 0 47px 46px; font-size: 12px; color: #bd1d2d; margin-bottom: 0; }
+.goto .button{width: 95px; height:27px;background-color: #bd1d2d; display: block;margin: 0 auto;min-height: 32px;  line-height: 32px; color: #fff; font-size: 15px; font-family: "Microsoft Yahei" }
+.congratulate img{height: 80px; position: absolute;top:21px; left: 11%;}
+.congratulate{position: relative;}
+.pangzi{text-align: center; padding-top: 50px}
+.pangzi img{width: 255px; }
+
+/*-----------------------------------home-------------------------------------------*/
+.redface{height: 154px; background-color: #bd1d2d;border-bottom-left-radius: 185px 45px;border-bottom-right-radius: 185px 45px; position: relative;}
+.face{text-align: center; padding-top: 36px;}
+.face img{ width: 85px; border: 2px solid #fff; border-radius: 50%; }
+.iconfont1 img{ height: 19px; position: absolute; left: 10px;top: 66px;}
+.iconfont2 img{ height: 22px; position: absolute; right:10px;top: 66px;}
+.faceuser{font-size: 20px; color: #fff;  text-align: center; }
+span.nav-bar-title{font-size:18px; color: #fff; text-align: center;  background-color: #393a3f; border: none; }
+.button .icon{color: #fff;font-size: 24px;}
+.bar .button.back-button, .bar button.back-button{width: 36px;}
+.points{ height: 32px; line-height: 32px; text-align: center; font-size: 20px; color: #bd1d2d; }
+.points span{font-size: 12px;}
+.sign{background-color: #bd1d2d; display: block; color: #fff; font-size: 15px;
+height: 30px; width: 25.33%; margin: 0 auto;}
+.icon-one img{height: 20px; margin-right: 15px;}
+.icon-two img{width: 20px; margin-right: 16px;}
+.icon-three img{width: 22px; margin-right: 14px;}
+.icon-four img{width: 20px; margin-right: 15px;}
+.icon-five img{width: 25px; margin-right: 15px;}
+.item-icon-left .badge-assertive{background-color: #ed6775;}
+.list-inset{padding-bottom: 50px;}
+.list-inset .item-icon-left.item-icon-right{width: 86.93%; border-left-color: transparent; border-right-color: transparent; margin:0 auto;border-bottom: 1px solid #f2f2f2; padding-left: 0; font-size: 15px; font-family:"Microsoft Yahei"; }
+.item-icon-right .dark{color: #e5e5e5;}
+.ion-ios-arrow-right:before{padding-left: 30px;}
+.item-complex.item-icon-left .item-content{padding-left: 0;}
+.item-complex .item-content{padding-left: 0;}
+
+/*----------------------------------签到弹框-------------------------------------------*/
+.sign-bg{height:246px;width: 245px; background-image: url("../images/sign.png"); background-size: cover; position: relative; }
+.sign-bg span{font-size: 26px; color: #fff; position: absolute;left: 128px; top: 40px; }
+.sign-bg .success{font-size: 14px; color: #fff; padding: 122px 0 0 77px; margin: 0; }
+.sign-bg .scores{ font-size: 15px;color: #000; padding: 72px 0 0 55px;}
+.popup-head,.popup-body{padding: 0; border-bottom: none;}
+.popup-container .popup{background-color: transparent;}
+.popup-buttons{padding: 0;position: absolute;right: 0; top: 0;}
+.popup-buttons .button{min-width: 26px;min-height: 26px; height: 26px; width: 26px; border-radius: 50%; background-color: rgba(0,0,0,0.3);text-align: center; line-height: 26px; color: #fff; padding: 0; }
+
+/*----------------------------------signup-------------------------------------------*/
+.signbg{height:  164px; width: 100%; background-image: url("../images/signup-bg.png"); background-size: cover; margin-bottom: 27px;}
+.signbg img{height: 164px}
+.list{margin-bottom: 0;}
+.item{border-width:0;}
+.text{ margin:0 auto;width: 84.8%; height: 273px; background-image: url("../images/logoin-bg.png"); background-size: cover;}
+.content-big{background-color: #22272e;}
+.text p{ padding: 49px 0 21px 0; color: #000; font-size: 19px; text-align: center;}
+.text .login{width: 80.66%; height: 41px; background-color: #f0f0f0; margin: 0 auto; padding-left: 12px; border-bottom: 2px solid #e7e7e7;}
+.text .login1{border-radius: 6px 6px 0 0}
+.text .login2{border-radius: 0 0 6px 6px}
+.item-select select{ background-color: #f0f0f0;}
+.ion-person,.ion-card,.ion-ios-location{font-size: 22px; }
+.ion-ios-location{position: relative; left: -7px;}
+.item-input-wrapper{padding-left: 0;}
+.postcard{margin-left: 3px;}
+.login span{font-size: 14px;color: #aaa;font-family: Arial;}
+.placeholder-icon:last-child{padding-left: 10px;}
+.first{font-size: 12px; color: #919191; display: block;text-align: center; padding-top: 15px;}
+.second{font-size: 12px; color: #919191; text-decoration: underline;display: block;text-align: center}
+.submit-info{ width: 63.2%; height: 43px; background-color: #cb2636;display: block;margin: 0 auto;margin-top: 32px; color: #fff;font-size: 18px; font-family:"Microsoft Yahei"; }
+.reg-success{background-color: #cb2636; height: 200px; border-radius: 13px; line-height: 200px; font-size: 24px; text-align: center; font-family:"Microsoft Yahei"; color: #fff}
+.login3 .ion-ios-telephone{padding:0  11px 0 3px;}
+/*----------------------------------receive-------------------------------------------*/
+
+.line{content:"";display:block;width: 3px; height: 100%;background-color: #bf1e2e;margin-left: calc(50% - 2px);}
+.receive-bg{background-color: #bf1e2e; height: 153px; }
+.receive-bg .inner{text-align: center;}
+.receive-bg .inner .img1{height: 155px; position: relative; top: 73px;}
+@keyframes bounce {
+    0% {
+        transform:translateY(0%);
+        opacity: 0.8;
+    }
+    15% {
+        transform:translateY(10%);
+        opacity: 0.4;
+    }
+    50% {
+        transform:translateY(30%);
+        opacity: 0.2;
+    }
+    85% {
+        transform:translateY(-30%);
+        opacity: 0.4;
+    }
+    100% {
+        -o-transform:translateY(0%);
+        opacity: 0.8;
+    }
+}
+.receive-bg .inner .img2{height: 39px; position: absolute; left: calc(50% - 19px);top: 208px;
+    animation: bounce 2000ms infinite ease-out;}
+.bank{padding-top: 149px;}
+.bank .house{width: 44px; height: 44px; border-radius: 50%; text-align: center; background-color: #fff;line-height: 44px; position: absolute;
+    left: calc(50% - 22px); top:-22px;border: 3px solid #cc4038; box-shadow: 0 0 0 3px #fff;}
+.bank .house img{width: 27px; position: relative; top: 4px;}
+.bank .top{ min-height: 76px; width: calc(50% - 2px); position: relative;}
+.bank .top .short-line{display: block;width: 43.25%;height: 3px; background-color:#bf1e2e;position: absolute;left:52%; top:-3px; }
+.bank .top:before{content: "";width: 22px; height: 22px;z-index: 3; border-radius: 50%;background-color: #bf1e2e;display: block;position: absolute;right: -12px; top:-11px; box-shadow: 0 0 0 3px #fff;}
+.bank .top:after{content: "";width: 22px; height: 22px;z-index: 3; border-radius: 50%;background-color: #bf1e2e;display: block;position: absolute;right: -12px; bottom:-11px; box-shadow: 0 0 0 3px #fff;}
+.bank .adress{padding-top: 28px; text-align: center; font-size: 12px; color: #000;}
+.bank .bot{margin-left: calc(50% + 1px); min-height: 76px; position: relative;}
+.bank .bot .short-line-one{display: block;width: 43.25%;height: 3px; background-color:#bf1e2e;position: absolute;left:0; top:-3px;}
+
+/*----------------------------------------------customerService----------------------------------------------*/
+.customer{width: 100%; margin: -1px auto; background-color: #e3e0e1; width:350px; padding: 0;}
+.search{background-color: #e3e0e1;}
+.bannerBox>img{width: 100%; height: 100%;display: block;}
+.item-stable.hasBoarder{border-bottom: 1px solid rebeccapurple; margin: 1px;border-color:#ddd; font-size: 15px; font-family:"Microsoft Yahei"; }
+.moreQuest{text-align: center; font-size: 12px; position: relative;top: -15px; color: #0a9dc7;}
+.moreQuest i{font-size: 18px; padding-left: 5px;}
+.ion-ios-arrow-right.dark{right: 22px;}
+
+/*----------------------------------------------install----------------------------------------------*/
+.item-icon-left .install-color{color: #bf1e2e}
+.item-icon-left.special{border-bottom:1px solid #ddd; margin-bottom: 1px;}
+.button.leave{background-color:#bf1e2e; height: 30px;margin: 0 auto;line-height: 36px; color: #fff; font-family:"Microsoft Yahei"; display: block; width: 35%;  font-size: 14px; min-height: 36px;  }
+
+/*----------------------------------------------card_info----------------------------------------------*/
+.cardAll img{ width: 29px; margin: 13px 0 0 17px}
+.cardAll .cardName{ font-size: 19px; color: #fff;position: absolute;top: 17px; right: 18px;}
+.cardAll .atm{ font-size: 12px; color: #fff; position: absolute; top: 45px; right: 18px;}
+.cardAll .detail{line-height:17px;position: absolute; left:21px; top: 81px; font-size: 12px; }
+.cardAll .detail span{color: #bd1d2d;}
+.cardInfo{height: 152px; width: 85%;background-image: url("../images/card4.png"); background-size: cover; margin: 28px auto; position: relative;}
+.cardInfo .showTime{ animation: bounce 2000ms infinite ease-out;font-weight: bold;color: #bd1d2d; height: 18px; width: 21px; display: block; font-family: monospace; text-align: center;border: 2px solid #bd1d2d; position: absolute; right:20px; bottom: 22px;  }
+.cardInfoA{height: 152px; width: 85%;background-image: url("../images/card2.png"); background-size: cover; margin: 28px auto; position: relative;}
+.cardInfoA .showTime{ animation: bounce 2000ms infinite ease-out;font-weight: bold;color: #e0463c; height: 18px; width: 21px; display: block; font-family: monospace; text-align: center;border: 2px solid #e0463c; position: absolute; right:20px; bottom: 22px;  }
+.cardInfoA .detail span{color: #e0463c;}
+.cardInfoB{height: 152px; width: 85%;background-image: url("../images/card5.png"); background-size: cover; margin: 28px auto; position: relative;}
+.cardInfoB .showTime{ animation: bounce 2000ms infinite ease-out;font-weight: bold;color: #eecc2b; height: 18px; width: 21px; display: block; font-family: monospace; text-align: center;border: 2px solid #eecc2b; position: absolute; right:20px; bottom: 22px;  }
+.cardInfoB .detail span{color: #eecc2b;}
+.cardInfoC{height: 152px; width: 85%;background-image: url("../images/card1.png"); background-size: cover; margin: 28px auto; position: relative;}
+.cardInfoC .showTime{ animation: bounce 2000ms infinite ease-out;font-weight: bold;color: #a3a3a1; height: 18px; width: 21px; display: block; font-family: monospace; text-align: center;border: 2px solid #a3a3a1; position: absolute; right:20px; bottom: 22px;  }
+.cardInfoC .detail span{color: #a3a3a1;}
+.cardInfoD{height: 152px; width: 85%;background-image: url("../images/card6.png"); background-size: cover; margin: 28px auto; position: relative;}
+.cardInfoD .showTime{ animation: bounce 2000ms infinite ease-out;font-weight: bold;color: #0193e6; height: 18px; width: 21px; display: block; font-family: monospace; text-align: center;border: 2px solid #0193e6; position: absolute; right:20px; bottom: 22px;  }
+.cardInfoD .detail span{color:#0193e6;}
+.cardInfoE{height: 152px; width: 85%;background-image: url("../images/card3.png"); background-size: cover; margin: 28px auto; position: relative;}
+.cardInfoE .showTime{ animation: bounce 2000ms infinite ease-out;font-weight: bold;color: #00a762; height: 18px; width: 21px; display: block; font-family: monospace; text-align: center;border: 2px solid #00a762; position: absolute; right:20px; bottom: 22px;  }
+.cardInfoE .detail span{color:  #00a762;}
+
+.show_a,.show_b,.show_c,.show_d,.show_e,.show_f{background-color: #bd1d2d;  border-radius: 13px;font-size:12px; font-family:"Microsoft Yahei"; color: #fff; padding: 10px 0 30px 0; position: relative;}
+.show_a p,.show_b p,.show_c p,.show_d p,.show_e p,.show_f p{text-align: left; font-size: 12px; height: 20px; line-height: 20px; padding-left: 12px;}
+.show_b{background-color:#e0463c; }
+.show_c{background-color:#eecc2b; }
+.show_d{background-color:#a3a3a1; }
+.show_e{background-color:#0193e6 }
+.show_f{background-color:#00a762; }
+.show_a img,.show_b img,.show_c img,.show_d img,.show_e img,.show_f img{width: 29px;position: absolute;right: 0;bottom: 0;}
+.titleChange{font-family:"Microsoft Yahei"; font-size: 14px;}
+.contentChange{font-size: 12px;}

@@ -1,0 +1,39 @@
+<ion-view hide-nav-bar="true">
+    <ion-content class="bigbox">
+        <p class="bankbg"><img src="images/beijinbank.png"></p>
+        <div class="content-box">
+            <form class="list list-borderless" name="registerForm" novalidate>
+                <label class="item item-input-inset ">
+                    <div class="item-input-wrapper labelone">
+                        <i class="logo-one"><img src="images/name.png"> </i>
+                        <input type="text" name="user" ng-model="users.user" placeholder="请填写您的真实姓名" required>
+                    </div>
+                </label>
+
+                <label class="item item-input-inset ">
+                    <div class="item-input-wrapper labelone">
+                        <i class="logo-two"><img src="images/phone.png"></i>
+                        <input type="tel" name="tel" ng-model="users.phone" placeholder="请填写您的联系方式" required>
+                    </div>
+                </label>
+
+                <label class="item item-input-inset">
+                    <div class="item-input-wrapper labelone">
+                        <i class="logo-three"><img src="images/adress.png"></i>
+                        <input type="text" name="adress" ng-model="users.adress" placeholder="请填写您的单位地址" required>
+                    </div>
+                </label>
+
+                <label class="item item-input-inset">
+                    <div class="item-input-wrapper labelone">
+                        <i class="logo-four"><img src="images/document.png"></i>
+                        <input type="text" name="document" ng-model="users.document" placeholder="请填写申请地址" required>
+                    </div>
+                </label>
+            </form>
+            <p class="no-user">还没有账户？<span ui-sref="registerNow">立即注册</span></p>
+
+        </div>
+        <button type="submit" class="button login-button" ui-sref="submit_success" ng-disabled="registerForm.$invalid">确定</button>
+    </ion-content>
+</ion-view>

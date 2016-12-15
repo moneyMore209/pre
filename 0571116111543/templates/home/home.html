@@ -1,0 +1,38 @@
+<ion-view hide-back-button="true" >
+    <ion-nav-title>用户中心</ion-nav-title>
+    <ion-content>
+       <div class="redface" style="background-color:{{background.bg}}">
+            <div class="face">
+               <img src="images/face.jpeg">
+            </div>
+           <span class="iconfont1" ui-sref="install"><img src="images/iconfont1.png"> </span>
+           <span class="iconfont2" ui-sref="messageRecord"><img src="images/iconfont2.png"> </span>
+            <p class="faceuser">{{users.user}}{{users.name}}</p>
+       </div>
+        <p class="points">{{users.score}}<span>分</span></p>
+        <span ng-click="showAlert()"><button class="button button-icon sign" ng-click="users.score = users.score +5 ">签到</button></span>
+        <ion-list class="list-inset">
+            <ion-item class="item-icon-left item-icon-right" ui-sref="messageRecord" >
+               <i class="icon-one"><img src="images/msg.png"> </i>消息记录
+                <span class="badge badge-assertive">9</span>
+                <i class="icon ion-ios-arrow-right dark"></i>
+            </ion-item>
+            <ion-item class="item-icon-left item-icon-right" ui-sref="card_info" >
+                <i class="icon-two"><img src="images/money.png"> </i>信用卡推荐
+                <i class="icon ion-ios-arrow-right dark"></i>
+            </ion-item>
+            <ion-item class="item-icon-left item-icon-right"  ui-sref="signup">
+                <i class="icon-three"><img src="images/apply.png"> </i>我要报名
+                <i class="icon ion-ios-arrow-right dark"></i>
+            </ion-item>
+            <ion-item class="item-icon-left item-icon-right" ui-sref="receive">
+                <i class="icon-four"><img src="images/box.png"> </i>网点查看
+                <i class="icon ion-ios-arrow-right dark"></i>
+            </ion-item>
+            <ion-item class="item-icon-left item-icon-right" ui-sref="customerService">
+                <i class="icon-four"><img src="images/liuyan.png"> </i>我的客服
+                <i class="icon ion-ios-arrow-right dark"></i>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

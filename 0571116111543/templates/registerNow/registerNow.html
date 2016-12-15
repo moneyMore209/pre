@@ -1,0 +1,35 @@
+<ion-view>
+    <ion-nav-title>用户注册</ion-nav-title>
+    <ion-content class="content-big">
+        <div class="signbg">
+        </div>
+        <div class="text">
+            <p>基本信息注册</p>
+            <form class="list list-borderless " name="registerForm" novalidate>
+                <label class="item item-input-inset login login1">
+                    <div class="item-input-wrapper">
+                        <i class="icon ion-person placeholder-icon"></i>
+                        <input class="postcard" name="user" ng-model="users.name" type="text" placeholder="姓名" required/>
+                    </div>
+                </label>
+                <label class="item item-input-inset login">
+                    <div class="item-input-wrapper">
+                        <i class="icon ion-card placeholder-icon"></i>
+                        <input type="text" name="card" ng-model="user.card" placeholder="身份证号码" required/>
+                    </div>
+                </label>
+                <label class="item item-input-inset login login3">
+                    <div class="item-input-wrapper">
+                        <i class="icon ion-ios-telephone placeholder-icon"></i>
+                        <input type="tel" name="tel" ng-model="user.tel" placeholder="手机号码" required/>
+                    </div>
+                </label>
+
+            </form>
+            <span class="first">请注册人员仔细填写您的姓名和身份证号码</span>
+            <span class="second">便于我们为大家核实</span>
+
+        </div>
+        <button type="submit" class="button submit-info" ng-disabled="registerForm.$invalid" ng-click="submit()" ui-sref="home">提交信息</button>
+    </ion-content>
+</ion-view>

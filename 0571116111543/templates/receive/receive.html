@@ -1,0 +1,36 @@
+<ion-view>
+    <ion-nav-title>网点服务点</ion-nav-title>
+    <div class="line"  ng-show="bankShow.show"></div>
+    <ion-content>
+        <div class="receive-bg">
+            <div class="inner">
+                <img class="img1" src="images/head.png">
+                <img class="img2" id="spp" ng-click="change()" src="images/scroll-down.png">
+            </div>
+        </div>
+        <div class="bank"  ng-show="bankShow.show">
+            <div class="wraper" ng-repeat="message in messages">
+                <div class="top"  style="background-color: {{bg.color}}">
+                    <span class="short-line"></span>
+                    <div class="house">
+                        <img src="images/house.png">
+                    </div>
+                    <p class="adress">
+                        {{message.adressone}} <br>
+                        {{message.adresstwo}}
+                    </p>
+                </div>
+              <div class="bot">
+                    <span class="short-line-one"></span>
+                    <div class="house">
+                        <img src="images/house.png">
+                    </div>
+                    <p class="adress">
+                        {{message.adressone1}}<br>
+                        {{message.adresstwo1}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
